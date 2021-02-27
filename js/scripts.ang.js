@@ -94,8 +94,8 @@ app.controller('myPageCtrl', function($scope,$http){
 				$scope.pageAnimate('clients');
 			} else if ($(e.target).hasClass('link_facts')) {
 				$scope.pageAnimate('gallery');
-			} else if ($(e.target).hasClass('link_projects')) {
-				$scope.pageAnimate('gallery');
+			} else if ($(e.target).hasClass('link_map')) {
+				$scope.pageAnimate('mapp');
 			} else if ($(e.target).hasClass('link_team')) {
 				$scope.pageAnimate('team');
 			} else if ($(e.target).hasClass('link_customers')) {
@@ -223,7 +223,7 @@ app.controller('myPageCtrl', function($scope,$http){
 	$scope.galleryImageResize = function() {
 		$('.gallery_block').each(function() {
 			$(this).css({
-				'background-image': 'url(' + $(this).attr("href") + ')',
+				'background-image': 'url(' + $(this).attr("data-img") + ')',
 				'background-repeat': 'no-repeat',
 				'background-position': 'center center',
 				'background-size': 'cover'

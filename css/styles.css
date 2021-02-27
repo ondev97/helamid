@@ -855,15 +855,15 @@ p {
   background: #fafafa;
 }
 .team_container {
-  width: 230px;
-  height: 230px;
+  width: 150px;
+  height: 150px;
 }
 .team_block {
   min-width: 210px;
 }
 .team_image {
-  min-width: 230px;
-  min-height: 230px;
+  min-width: 150px;
+  min-height: 150px;
 }
 .team_name {
   color: #333;

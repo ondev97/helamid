@@ -7969,10 +7969,9 @@ html[dir="rtl"] .uk-slider > * {
   min-height: 100px;
 }
 .yt-new {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -7984,14 +7983,10 @@ html[dir="rtl"] .uk-slider > * {
   background-position: center !important;
   background-size: cover !important;
   min-height: 230px;
-  width: 350px;
-  margin: 5px;
+  width: 369px;
   padding: 5px;
-  border-radius: 5px;
+  cursor: pointer;
   transition: 0.5s ease !important;
-}
-.yt-slider:hover {
-  transform: scale(1.02);
 }
 .whwa {
   padding: 45px 0;
@@ -8000,13 +7995,13 @@ html[dir="rtl"] .uk-slider > * {
   font-size: 15px;
   color: #9a9a9a;
   letter-spacing: 1.5px;
-  text-align: justify;
+  text-align: center;
   font-weight: lighter;
   font-family: Arial, sans-serif;
 }
 .svg_back {
   width: 100%;
-  background-color: #062340;
+  background-color: #f0f0f0;
 }
 .svg_back h1 {
   text-align: center;
@@ -8030,31 +8025,32 @@ html[dir="rtl"] .uk-slider > * {
 .mmap ul li:nth-child(1) {
   width: 13px;
   height: 13px;
-  background-color: #fff;
+  background-color: #ffad33;
   position: absolute;
   border-radius: 50%;
 }
 .mmap ul li:nth-child(2) {
-  width: 25px;
-  height: 25px;
-  background-color: #fff;
+  width: 13px;
+  height: 13px;
+  background-color: #ffad33;
   position: absolute;
   border-radius: 50%;
 }
 li .iii {
-  width: 100px;
+  width: 120px;
   background-color: #fff;
-  padding: 5px;
+  padding: 8px;
   border-radius: 5px;
   position: absolute;
   bottom: 140%;
   left: -210%;
-  visibility: hidden;
+  visibility: visible;
+  border: 1px solid #c7c1c1;
   transition: 0.5s ease !important;
 }
 li .iii .flg {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 8px;
 }
@@ -8069,7 +8065,7 @@ li .iii .flg h3 {
   font-weight: bold;
 }
 li .iii .tp p {
-  font-size: 10px;
+  font-size: 11px;
   text-align: center;
   margin: 0 0 5px 0;
 }
@@ -8078,15 +8074,12 @@ li .iii .tp p {
   background-color: #ffad33;
   cursor: pointer;
 }
-.mmap ul li:nth-child(1):hover .iii {
-  visibility: visible;
-}
 .mmap ul li:nth-child(2):hover {
   background-color: #ffad33;
   cursor: pointer;
 }
-.mmap ul li:nth-child(2):hover .iii {
-  visibility: visible;
+#usl {
+  width: 110px;
 }
 
 @media screen and (max-width: 415px) {
