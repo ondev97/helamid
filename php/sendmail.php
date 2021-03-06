@@ -11,7 +11,7 @@ if ( isset($_POST['email']) && isset($_POST['name']) && isset($_POST['message'])
 		}
 	}
 
-	$to = "digitalentertainment84@gmail.com";	// receiver of the email
+	$to = "osadamanohara55@gmail.com";	// receiver of the email
     $subject = "You have a message.";			// subject of the email
 	$message = '
 	<html>
@@ -31,5 +31,8 @@ if ( isset($_POST['email']) && isset($_POST['name']) && isset($_POST['message'])
 	// E-mail sending function
 	mail($to, $subject, $message);
 
+}
+else{
+	header('Location:../contactus.php?err=nofill');
 }
 ?>

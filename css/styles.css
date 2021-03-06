@@ -1169,7 +1169,7 @@ p {
 
 .contact {
   padding: 100px 0;
-  background: url("http://placehold.it/1920x1080") no-repeat 0 0;
+  background: url("../images/slider-cover.jpg") no-repeat 0 0;
   background-size: cover;
   background-attachment: fixed;
   border: 0;
@@ -1287,7 +1287,6 @@ p {
 .success_response,
 .error,
 .error_response {
-  display: none;
   margin: 10px auto;
   font-size: 16px;
 }
