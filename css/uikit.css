@@ -7966,7 +7966,7 @@ html[dir="rtl"] .uk-slider > * {
 }
 .nonborder-radius img {
   min-width: 100px;
-  min-height: 100px;
+  min-height: 93px;
 }
 .yt-new {
   width: 100%;
@@ -8079,7 +8079,7 @@ li .iii .tp p {
   cursor: pointer;
 }
 #usl {
-  width: 110px;
+  width: 120px;
 }
 
 @media screen and (max-width: 415px) {
