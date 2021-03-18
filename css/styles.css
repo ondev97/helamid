@@ -458,7 +458,7 @@ p {
 /******* Elements section *******/
 
 .elements {
-  padding: 70px 0 30px;
+  padding: 70px 0 70px;
   background: #fff;
 }
 .elements_item_label {
@@ -658,7 +658,7 @@ p {
 /******* Clients section *******/
 
 .clients {
-  padding: 120px 0;
+  padding: 70px 0;
   background: #fff;
 }
 .clients_slider_container {

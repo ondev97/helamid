@@ -7989,17 +7989,16 @@ html[dir="rtl"] .uk-slider > * {
   transition: 0.5s ease !important;
 }
 .whwa {
-  padding: 45px 0;
+  padding: 45px 0 0px;
 }
 .pstyle {
-  font-size: 15px;
-  color: #9a9a9a;
-  letter-spacing: 1.5px;
-  text-align: center;
-  font-weight: lighter;
-  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  color: #999;
+  line-height: 18px;
 }
 .svg_back {
+  padding: 80px 0;
   width: 100%;
   background-color: #f0f0f0;
 }
@@ -8037,9 +8036,9 @@ html[dir="rtl"] .uk-slider > * {
   border-radius: 50%;
 }
 li .iii {
-  width: 120px;
+  width: 150px;
   background-color: #fff;
-  padding: 8px;
+  padding: 8px 8px 8px 10px;
   border-radius: 5px;
   position: absolute;
   bottom: 140%;
@@ -8050,13 +8049,14 @@ li .iii {
 }
 li .iii .flg {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
-  padding: 8px;
+  padding: 0 0 8px;
 }
 li .iii .flg img {
-  width: 25px;
+  width: 32px;
   height: 20px;
+  margin-right: 10px;
 }
 li .iii .flg h3 {
   font-size: 12px;
@@ -8066,7 +8066,7 @@ li .iii .flg h3 {
 }
 li .iii .tp p {
   font-size: 11px;
-  text-align: center;
+  text-align: left;
   margin: 0 0 5px 0;
 }
 
@@ -8079,12 +8079,20 @@ li .iii .tp p {
   cursor: pointer;
 }
 #usl {
-  width: 120px;
+  width: 150px;
 }
 
 @media screen and (max-width: 415px) {
   .mmap ul li:nth-child(2) {
     width: 13px;
     height: 13px;
+  }
+}
+@media screen and (max-width: 415px) {
+  #usl {
+    width: 100px;
+  }
+  li .iii {
+    width: 100px;
   }
 }
