@@ -192,7 +192,7 @@ h2,
 h3,
 .uk-h3 {
   font-family: "open_sanslight", sans-serif;
-  font-size: 42px;
+  font-size: 38px;
   line-height: 48px;
 }
 h4,
@@ -7955,6 +7955,18 @@ html[dir="rtl"] .uk-slider > * {
 }
 
 /*ondev*/
+.ud {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0 30px;
+}
+.ud .line {
+  width: 100px;
+  height: 3px;
+  background-color: #bbb;
+}
 .nonborder-radius {
   border-radius: 0;
   width: 200px !important;
