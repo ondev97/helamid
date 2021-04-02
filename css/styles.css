@@ -458,7 +458,7 @@ p {
 /******* Elements section *******/
 
 .elements {
-  padding: 70px 0 70px;
+  padding: 70px 0;
   background: #fff;
 }
 .elements_item_label {
@@ -870,7 +870,7 @@ p {
   color: #333;
 }
 .team_position {
-  font-size: 15px;
+  font-size: 14px;
 }
 .team_description {
   font-size: 14px;
@@ -1951,6 +1951,9 @@ p {
     padding: 70px 0 30px;
   }
 }
+.footer {
+  padding: 50px 0;
+}
 @media screen and (max-width: 767px) {
   h3,
   .uk-h3 {
@@ -2072,6 +2075,7 @@ p {
   .container_form .container_subtitle {
     font-size: 30px;
     line-height: 32px;
+    letter-spacing: 5px;
   }
   .price_container {
     padding: 0 55px;
