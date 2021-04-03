@@ -192,12 +192,12 @@ h2,
 h3,
 .uk-h3 {
   font-family: "open_sanslight", sans-serif;
-  font-size: 38px;
+  font-size: 32px;
   line-height: 48px;
 }
 h4,
 .uk-h4 {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 26px;
 }
 h5,
@@ -7956,13 +7956,13 @@ html[dir="rtl"] .uk-slider > * {
 
 /*ondev*/
 .border {
-  border: 1px solid #eff7ff;
+  border: 1px solid #d7d9da;
   background: linear-gradient(150deg, #eff7ff, #fff);
   border-radius: 5px;
   padding: 35px 20px;
   min-height: 413px;
   max-height: 500px;
-  min-width: 270px;
+  flex-basis: 316px;
   margin: 15px;
   overflow: hidden;
   box-shadow: 0px 0px 2px #cacaca;
@@ -8016,7 +8016,7 @@ html[dir="rtl"] .uk-slider > * {
   transition: 0.5s ease !important;
 }
 .whwa {
-  padding: 15px 0 0px;
+  padding: 20px 0 0px;
 }
 .pstyle {
   font-size: 14px;
@@ -8133,9 +8133,140 @@ li .iii .tp p {
   width: 150px;
 }
 
+/*ondev cutome our partness section*/
+.ourPartner {
+  border: none !important;
+}
+.ourPartner .main {
+  max-width: 1300px;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+}
+.ourPartner .main .subsq {
+  width: 400px;
+  padding: 40px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #eee;
+  z-index: 2;
+  margin-right: -5%;
+  background-color: #fff;
+  box-shadow: 0px 0px 15px 2px #eee;
+  border-radius: 5px;
+}
+.ourPartner .main .cont {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.ourPartner .main .cont .cot {
+  padding: 40px 45px 40px 120px;
+  background-color: #eee;
+  width: 1200px;
+}
+.ourPartner .main .cont h1 {
+  font-size: 32px;
+  position: relative;
+  margin-bottom: 30px;
+  line-height: 50px;
+}
+.ourPartner .main .cont h1::after {
+  content: "";
+  width: 80px;
+  height: 3px;
+  position: absolute;
+  bottom: -20%;
+  left: 0%;
+  background-color: #ff0000;
+}
+.ourPartner .main .cont .row {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.ourPartner .main .cont .row p {
+  font-size: 16px;
+  line-height: 23px;
+}
+.ourPartner .main .cont .row button {
+  margin-top: 10px;
+  width: 200px;
+  padding: 12px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  font-size: 14px;
+  border: 1px solid transparent;
+}
+section:nth-of-type(6) .main .cont h1::after {
+  background-color: #64c900;
+}
+section:nth-of-type(7) .main .cont h1::after {
+  background-color: #f65025;
+}
+section:nth-of-type(8) .main .cont h1::after {
+  background-color: #ff0066;
+}
+.but {
+  background-color: #cf1a1a;
+}
+.crbut {
+  background-color: #64c900;
+}
+.lebut {
+  background-color: #f65025;
+}
+.mbbut {
+  background-color: #ff0066;
+}
+.ourPartner .main .cont .row .col {
+  margin: 0 5px;
+  flex-basis: 200px;
+}
+.ourPartner .main .cont .row .col .img {
+  overflow: hidden;
+}
+.ourPartner .main .cont .row .col .img img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 1300px) {
+  .ourPartner .main {
+    width: 90%;
+  }
+  .ourPartner .main .cont .cot {
+    padding: 50px 20px 50px 100px;
+  }
+}
 @media screen and (max-width: 1100px) {
   .oned {
     width: 90% !important;
+  }
+  .ourPartner .main .cont {
+    flex-direction: column;
+  }
+  .ourPartner .main .cont .cot {
+    width: 90%;
+  }
+  .ourPartner .main .subsq {
+    margin-bottom: 25px;
+  }
+  .ourPartner .main .cont .cot {
+    padding: 50px 20px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .ourPartner .main .cont .row {
+    flex-wrap: wrap;
+  }
+  .ourPartner .main .subsq {
+    width: 70%;
   }
 }
 @media screen and (max-width: 512px) {
@@ -8159,6 +8290,17 @@ li .iii .tp p {
     overflow-x: hidden;
     padding: 20px 0;
   }
+  .ourPartner .main .subsq {
+    width: 50%;
+    margin-right: 0;
+  }
+  .ourPartner .main .cont h1 {
+    word-break: break-all;
+    font-size: 25px;
+  }
+  .ourPartner .main .cont p {
+    font-size: 15px;
+  }
 }
 @media screen and (max-width: 415px) {
   #usl {
@@ -8166,5 +8308,13 @@ li .iii .tp p {
   }
   li .iii {
     width: 100px;
+  }
+  .border {
+    flex-basis: 250px;
+  }
+}
+@media screen and (max-width: 278px) {
+  .border {
+    flex-basis: 100%;
   }
 }
