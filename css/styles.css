@@ -82,7 +82,7 @@ p {
   background: rgba(176, 186, 191, 0.2);
 }
 .grey_overlay:before {
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.35);
 }
 .dark_overlay:before {
   background: rgba(0, 0, 0, 0.7);
@@ -206,7 +206,7 @@ p {
   height: 100%;
 }
 .particles_effect .container {
-  background: url("../images/slider-cover.jpg") no-repeat 0 0;
+  background: url("../images/helamid-web-slider.jpg") no-repeat 0 0;
   background-size: cover;
   background-attachment: fixed;
 }
