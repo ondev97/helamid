@@ -7959,9 +7959,9 @@ html[dir="rtl"] .uk-slider > * {
   border: 1px solid #d7d9da;
   background: linear-gradient(150deg, #eff7ff, #fff);
   border-radius: 5px;
-  padding: 35px 20px;
-  min-height: 413px;
-  max-height: 500px;
+  padding: 24px 20px 16px;
+  min-height: 372px;
+  max-height: 400px;
   flex-basis: 316px;
   margin: 15px;
   overflow: hidden;
@@ -8144,8 +8144,8 @@ li .iii .tp p {
   display: flex;
 }
 .ourPartner .main .subsq {
-  width: 400px;
-  padding: 40px 20px;
+  width: 300px;
+  padding: 25px 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8155,6 +8155,9 @@ li .iii .tp p {
   background-color: #fff;
   box-shadow: 0px 0px 15px 2px #eee;
   border-radius: 5px;
+}
+.ourPartner .main .subsq img {
+  max-width: 90%;
 }
 .ourPartner .main .cont {
   display: flex;
@@ -8203,13 +8206,13 @@ li .iii .tp p {
   font-size: 14px;
   border: 1px solid transparent;
 }
-section:nth-of-type(6) .main .cont h1::after {
+section:nth-of-type(2) .main .cont h1::after {
   background-color: #64c900;
 }
-section:nth-of-type(7) .main .cont h1::after {
+section:nth-of-type(3) .main .cont h1::after {
   background-color: #f65025;
 }
-section:nth-of-type(8) .main .cont h1::after {
+section:nth-of-type(4) .main .cont h1::after {
   background-color: #ff0066;
 }
 .but {
