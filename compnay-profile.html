@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html class="particles_effect" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="shortcut icon" href="images/halamid-favi.png" />
+    <title>HELAMID</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background-color: #eee;
+    }
+    nav {
+      background-color: #062340;
+      padding: 25px 0;
+      text-align: center;
+    }
+    .doc {
+      max-width: 950px;
+      height: 569px;
+      margin: 25px auto;
+      overflow: hidden;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+    .doc iframe {
+      width: 100%;
+      height: 100%;
+    }
+    @media screen and (max-width: 968px) {
+      .doc {
+        margin: 0 auto;
+      }
+    }
+    @media screen and (max-width: 500px) {
+      .verify-pic {
+        background-size: 80% 80%;
+      }
+      .doc {
+        height: 370px;
+      }
+    }
+    @media screen and (max-width: 350px) {
+      .verify-pic {
+        padding: 250px 0;
+        background-size: 100% 100%;
+      }
+    }
+  </style>
+  <body
+    data-ng-app="myPage"
+    data-ng-controller="myPageCtrl"
+    onClick="hidNav(event)"
+  >
+    <!-- Page wrapper -->
+    <div class="wrapper">
+      <!-- Header -->
+      <header class="uk-small-hidden header">
+        <nav class="uk-navbar header-nav">
+          <div class="uk-container uk-container-center">
+            <a href="./index.html" class="uk-navbar-brand logo_link">
+              <img
+                class="uk-responsive-height logo"
+                src="./images/logo/helamid-web-logo.png"
+                alt=""
+              />
+            </a>
+            <div
+              class="uk-navbar-flip uk-hidden-large header_navbar_mobile_block"
+            >
+              <div
+                data-ng-click="toggleMobileNav($event)"
+                class="uk-navbar-toggle header_navbar_mobile"
+              ></div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div class="doc">
+        <iframe
+          src="https://docs.google.com/presentation/d/e/2PACX-1vSA-Vupq-aCN75dPqsQpU5VhAv7U8noW9Ntr9XzXsUZZxoD0pqyXIA-NOCb83mUHSCbXu6nob0hu0dW/embed?start=true&loop=true&delayms=5000"
+          frameborder="0"
+          width="960"
+          height="569"
+          allowfullscreen="true"
+          mozallowfullscreen="true"
+          webkitallowfullscreen="true"
+        ></iframe>
+      </div>
+    </div>
+
+    <script></script>
+  </body>
+</html>
