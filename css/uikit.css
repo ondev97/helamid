@@ -6185,7 +6185,7 @@ a.uk-thumbnail:focus {
   margin-top: 50px !important;
 }
 .uk-margin-large-bottom {
-  margin-bottom: 50px !important;
+  margin-bottom: 38px !important;
 }
 .uk-margin-large-left {
   margin-left: 50px !important;
@@ -8021,7 +8021,7 @@ html[dir="rtl"] .uk-slider > * {
 .pstyle {
   font-size: 14px;
   font-family: arial, sans-serif;
-  color: #999;
+  color: #262626;
   line-height: 18px;
 }
 .svg_back {
@@ -8122,10 +8122,7 @@ li .iii .tp p {
   margin: 95px auto;
   border: 1px solid #dadada;
   border-radius: 6px;
-  box-shadow: 0px 0px 2px #cacaca;
   transition: box-shadow 0.3s ease 0s;
-}
-.oned:hover {
   box-shadow: 0px 0px 12px #cacaca;
 }
 
@@ -8133,9 +8130,15 @@ li .iii .tp p {
   width: 150px;
 }
 
+.onps {
+  width: 80%;
+  margin: 38px auto 0;
+}
+
 /*ondev cutome our partness section*/
 .ourPartner {
   border: none !important;
+  padding: 20px 0;
 }
 .ourPartner .main {
   max-width: 1200px;

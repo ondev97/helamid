@@ -253,7 +253,7 @@ p {
   transition: background 0.5s;
 }
 .header.active {
-  background: #062340;
+  background: #000033;
   box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.3);
 }
 .logo_link {
@@ -875,7 +875,7 @@ p {
 .team_description {
   font-size: 14px;
   font-family: arial, sans-serif;
-  color: #999;
+  color: #262626;
   line-height: 18px;
 }
 
