@@ -2195,3 +2195,10 @@ p {
 .uk-active[data-uk-scrollspy] .animated:nth-child(10) {
   transition: top 0.5s linear 1.8s, opacity 0.5s linear 1.8s;
 }
+
+@media screen and (max-width: 400px) {
+  .onps {
+    width: 90%;
+    text-align: justify;
+  }
+}
