@@ -45,10 +45,6 @@ body {
 p {
   color: #333;
 }
-.section {
-  border-top: 1px solid #f0f0f0;
-  border-bottom: 1px solid #f0f0f0;
-}
 
 /******* Common *******/
 
@@ -2194,6 +2190,12 @@ p {
 }
 .uk-active[data-uk-scrollspy] .animated:nth-child(10) {
   transition: top 0.5s linear 1.8s, opacity 0.5s linear 1.8s;
+}
+.footer_message img {
+  width: 30px;
+}
+.footer_message span {
+  margin-right: 10px;
 }
 
 @media screen and (max-width: 400px) {

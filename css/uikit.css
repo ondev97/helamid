@@ -7960,8 +7960,6 @@ html[dir="rtl"] .uk-slider > * {
   background: linear-gradient(150deg, #eff7ff, #fff);
   border-radius: 5px;
   padding: 24px 20px 16px;
-  min-height: 372px;
-  max-height: 400px;
   flex-basis: 316px;
   margin: 15px;
   overflow: hidden;
