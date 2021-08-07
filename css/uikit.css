@@ -199,7 +199,7 @@ h2,
 h3,
 .uk-h3 {
   font-family: "RobotReavers", sans-serif;
-  font-size: 32px;
+  font-size: 34px;
   line-height: 48px;
 }
 h4,
@@ -8025,7 +8025,7 @@ html[dir="rtl"] .uk-slider > * {
 }
 
 .pstyle {
-  font-size: 14px;
+  font-size: 16px;
   font-family: "Poppins", sans-serif;
   color: #262626;
   line-height: 18px;
@@ -8282,7 +8282,7 @@ h3 {
   margin: 0;
 }
 .bank-main .bank-grid-card h2 {
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 600;
   margin-bottom: 8px;
   font-family: "Poppins", sans-serif;
