@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
 @font-face {
   font-family: "open_sanslight";
   src: url("../fonts/OpenSans-Light-webfont.eot");
@@ -25,6 +26,12 @@
       format("embedded-opentype"),
     url("../fonts/Roboto-Regular-webfont.woff") format("woff"),
     url("../fonts/Roboto-Regular-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "RobotReavers";
+  src: url("../fonts/RobotReaversItalic-4aa4.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -166,7 +173,7 @@ h4,
 h5,
 h6 {
   margin: 0 0 15px 0;
-  font-family: Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: normal;
   color: #444444;
   text-transform: none;
@@ -191,7 +198,7 @@ h2,
 }
 h3,
 .uk-h3 {
-  font-family: "open_sanslight", sans-serif;
+  font-family: "RobotReavers", sans-serif;
   font-size: 32px;
   line-height: 48px;
 }
@@ -8016,9 +8023,10 @@ html[dir="rtl"] .uk-slider > * {
 .whwa {
   padding: 20px 0 0px;
 }
+
 .pstyle {
   font-size: 14px;
-  font-family: arial, sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #262626;
   line-height: 18px;
 }
@@ -8089,11 +8097,13 @@ li .iii .flg h3 {
   line-height: initial;
   margin: 0;
   font-weight: bold;
+  font-family: "Poppins", sans-serif;
 }
 li .iii .tp p {
   font-size: 11px;
   text-align: left;
   margin: 0 0 5px 0;
+  font-family: "Poppins", sans-serif;
 }
 
 .mmap ul li:nth-child(1):hover {
@@ -8240,12 +8250,60 @@ section:nth-of-type(4) .main .cont h1::after {
   height: 100%;
 }
 
+/* bank Details section */
+.bank-main {
+  max-width: 1200px;
+  margin: 35px auto 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 280px));
+  grid-gap: 25px;
+  justify-content: center;
+}
+.bank-main .bank-grid-card {
+  background-color: #fff;
+  border: 1px solid #dadada;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0px 0px 12px #cacaca;
+  text-align: center;
+}
+.bank-main .bank-grid-card .img-sec {
+  width: 100%;
+  margin-bottom: 25px;
+  background-color: #fbfbfb;
+}
+.bank-main .bank-grid-card .img-sec img {
+  width: 75%;
+}
+.bank-main .bank-grid-card h2,
+h3 {
+  line-height: initial;
+  padding: 0;
+  margin: 0;
+}
+.bank-main .bank-grid-card h2 {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-family: "Poppins", sans-serif;
+}
+.bank-main .bank-grid-card h3 {
+  font-size: 14px;
+  margin-bottom: 8px;
+  font-family: "Poppins", sans-serif;
+}
+
 @media screen and (max-width: 1300px) {
   .ourPartner .main {
     width: 90%;
   }
   .ourPartner .main .cont .cot {
     padding: 50px 20px 50px 100px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .bank-main {
+    width: 95%;
   }
 }
 @media screen and (max-width: 1100px) {
@@ -8320,5 +8378,12 @@ section:nth-of-type(4) .main .cont h1::after {
 @media screen and (max-width: 278px) {
   .border {
     flex-basis: 100%;
+  }
+  .bank-main {
+    display: block;
+    width: 90%;
+  }
+  .bank-main .bank-grid-card {
+    margin: 15px 0;
   }
 }
