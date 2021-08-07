@@ -7967,7 +7967,7 @@ html[dir="rtl"] .uk-slider > * {
   background: linear-gradient(150deg, #eff7ff, #fff);
   border-radius: 5px;
   padding: 24px 20px 16px;
-  flex-basis: 316px;
+  flex-basis: 250px;
   margin: 15px;
   overflow: hidden;
   box-shadow: 0px 0px 2px #cacaca;
@@ -8028,7 +8028,7 @@ html[dir="rtl"] .uk-slider > * {
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   color: #262626;
-  line-height: 18px;
+  line-height: 23px;
 }
 .svg_back {
   padding: 60px 15px 60px 15px;
@@ -8270,7 +8270,6 @@ section:nth-of-type(4) .main .cont h1::after {
 .bank-main .bank-grid-card .img-sec {
   width: 100%;
   margin-bottom: 25px;
-  background-color: #fbfbfb;
 }
 .bank-main .bank-grid-card .img-sec img {
   width: 75%;
